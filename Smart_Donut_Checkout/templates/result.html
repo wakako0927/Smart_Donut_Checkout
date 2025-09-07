@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>会計結果</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-green-50 min-h-screen p-10">
+  <div class="max-w-4xl mx-auto bg-white p-6 rounded shadow">
+    <h1 class="text-xl font-bold mb-4">認識結果</h1>
+    <img src="/{{ image_path }}" alt="認識画像" class="w-full max-w-md mx-auto mb-6">
+
+    <ul class="mb-4">
+      {% for name, count in result.counts.items() %}
+        <li class="mb-1">{{ name }}: {{ count }} 個</li>
+      {% endfor %}
+    </ul>
+
+    <div class="text-right text-xl font-bold">合計金額：¥{{ result.total }}</div>
+
+    <div class="mt-6 text-center">
+      <a href="/" class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">戻る</a>
+    </div>
+  </div>
+</body>
+</html>
