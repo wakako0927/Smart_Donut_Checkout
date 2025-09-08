@@ -36,9 +36,9 @@
 │   └─ result.html        # 結果表示画面
 ├─ static/
 │   └─ uploads/       
-├─ models/
-│   └─ yolov8_donut.pt    # 学習済みYOLOモデル
-└─ README.md
+└─ models/
+    └─ yolov8_donut.pt    # 学習済みYOLOモデル
+
 </code></pre>
 </section>
 
