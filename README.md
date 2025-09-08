@@ -72,7 +72,7 @@
   </ol>
 
   <h4>出力例</h4>
-  <p><img src="https://github.com/wakako0927/Smart_Donut_Checkout/blob/main/Smart_Donut_Checkout/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-09-08%20005450.png" alt="例" width="700"></p>
+  <p><img src="https://raw.githubusercontent.com/wakako0927/subtrans/refs/heads/main/SubTrans/images/sumple_image.JPEG" alt="例" width="700"></p>
 </code></pre>
 </section>
 
